@@ -1,0 +1,7 @@
+.splitinfo > div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: .2em;
+
+  margin: .5em 0;
+}

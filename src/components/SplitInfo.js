@@ -5,7 +5,12 @@ import './SplitInfo.css';
 
 const SplitInfo = (props) => {
   return (
-    <h2 className="text-box">TODO: SplitInfo</h2>
+    <div className="splitinfo">
+      <div className="text-box">Tax Amount: ${props.taxAmount}</div>
+      <div className="text-box">Tip Amount: ${props.tipAmount}</div>
+      <div className="text-box">Total Price: ${props.totalPrice}</div>
+      <div className="text-box">Price Per Head: ${props.pricePerHead}</div>
+    </div>
   );
 };
 
